@@ -1,6 +1,6 @@
 - name: Run Postman Collection
         run: |
           postman collection run \
-            --collection "4a5de696-c0de-4b66-8962-21c099d12fcd" \
+            --collection "49389125-446a8004-3c29-40fe-8d42-2430fcad57d3" \
             --reporters cli,junit \
             --reporter-junit-export "test-results/junit.xml"
