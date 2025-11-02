@@ -1,1 +1,6 @@
-
+- name: Run Postman Collection
+        run: |
+          postman collection run \
+            --collection "<YOUR_COLLECTION_ID_OR_PATH>" \
+            --reporters cli,junit \
+            --reporter-junit-export "test-results/junit.xml"
